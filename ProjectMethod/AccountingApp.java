@@ -14,15 +14,9 @@ public class AccountingApp {
 	
 	public static void main(String[] args) {
 		
-		//부가세
-		double vat = getVAT();
-		//합계
-		double total = getTotal();
-		
-
 		System.out.println("Value of supply : " + valueOfSupply);
-		System.out.println("VAT : " + vat);
-		System.out.println("Total : " + total);
+		System.out.println("VAT : " + getVAT());
+		System.out.println("Total : " + getTotal());
 		
 	}
 
